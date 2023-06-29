@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://cutewallpaper.org/21/space-gif-background/Animated-backgrounds-GIFs-Get-the-best-GIF-on-GIPHY.gif);
+    background-size: cover;
+}
+.go{
+    height: 100%;
+    width: 100%;
+}
+.cn{
+    border: solid yellow;
+    height: 6vh;
+    width: 6vw;
+}
+.logo{
+    height: 100%;
+    width: 100%;
+}
+.running{
+    border: dotted red;
+    height: 12vh;
+    width: 6vw;
+    margin-top: 50px;
+}
+.container{
+    border: solid yellow;
+    height: 70vh;
+}
+.screen{
+    border: solid lime;
+    height: 65vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.left, .right{
+    border: solid white;
+    width: 20%;
+    margin: 10px
+    align-items: center;
+    background-color: black;
+}
+.mid{
+    border: solid white;
+    width: 60%;
+    margin: 10px;
+}
+.jax{
+    height: 100%;
+    width: 100%;
+}
+.player2{
+    height: 100%;
+    width: 100%;
+}
+.scene{
+    height: 100%;
+    width: 100%;
+}
