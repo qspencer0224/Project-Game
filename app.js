@@ -64,7 +64,7 @@ const generateRandomNum = (min, max) => {
     hull: generateRandomNum(3, 6),
     firepower: generateRandomNum(2, 4),
     accuracy: generateRandomNum(6, 8),
-    image: "https://static.wikia.nocookie.net/samuraijack/images/1/1c/Ashi_DoA.png/revision/latest?cb=20230303111159",
+    image: "https://i.redd.it/1ks6jaklf7sy.png",
     scene: "https://media.tenor.com/o1sB7ZRzA88AAAAd/cartoon-fight-cartoon-fight-scene.gif"
   };
   
@@ -74,7 +74,8 @@ const generateRandomNum = (min, max) => {
     hull: generateRandomNum(13, 16),
     firepower: generateRandomNum(2, 4),
     accuracy: generateRandomNum(6, 8),
-    image: "https://media3.giphy.com/media/C3ByEpHvHupHi/giphy.gif",
+    image: "https://comicvine.gamespot.com/a/uploads/scale_medium/11144/111449862/7995598-merciless.png",
+    scene: "https://thumbs.gfycat.com/AnySlowChipmunk-max-1mb.gif"
   };
   
   let op4 = {
@@ -82,24 +83,25 @@ const generateRandomNum = (min, max) => {
     hull: generateRandomNum(3, 6),
     firepower: generateRandomNum(2, 4),
     accuracy: generateRandomNum(6, 8),
-    image:
-      "https://media0.giphy.com/avatars/sanghyoundominichan/nFrbk5Jp1COV.gif",
+    image: "https://preview.redd.it/rswcnl3dqy681.png?width=640&crop=smart&auto=webp&s=37bc3091193db750847aa016fc058204b3c9546c",
+    scene: "https://i.kym-cdn.com/photos/images/original/001/050/090/deb.gif"
   };
   let op5 = {
     name: "Societal Norms",
     hull: generateRandomNum(3, 6),
     firepower: generateRandomNum(2, 4),
     accuracy: generateRandomNum(6, 8),
-    image:
-      "https://media0.giphy.com/avatars/sanghyoundominichan/nFrbk5Jp1COV.gif",
+    image:"https://seeklogo.com/images/A/aku-samurai-jack-logo-488E465F44-seeklogo.com.png",
+    scene: "https://64.media.tumblr.com/bae3170ecf89b3ebba19b5c1ab7d2dbf/tumblr_ne0549xxF31rvb8cmo1_400.gifv"
+
   };
   let op6 = {
     name: "Yourself",
     hull: generateRandomNum(18, 20),
     firepower: generateRandomNum(4, 5),
     accuracy: generateRandomNum(6, 8),
-    image:
-      "https://media0.giphy.com/avatars/sanghyoundominichan/nFrbk5Jp1COV.gif",
+    image: "https://m.media-amazon.com/images/M/MV5BYjk4ZGE5YzctYzhhNi00YzdlLThhMGUtN2I3ODcyMWEyNDk4XkEyXkFqcGdeQXVyNzgxMzc3OTc@._V1_.jpg",
+    scene: "https://i.gifer.com/10OX.gif"
   };
 
   let allChal = [op1, op2, op3, op4, op5, op6];
@@ -163,15 +165,18 @@ const generateRandomNum = (min, max) => {
 
     };
       
-    
-
   const chalAttack = () => {
       console.log("CHALLENGE IS NOW ATTACKING")
     let strength = currentChal.firepower;
-    let chalAttack = (player1.hull-=currentAlien.firepower);
+    let chalAttack = (player1.hull-=currentChal.firepower);
     player1.hull = chalAttack;
     console.log(
       `${player1.name} got shot  by ${currentChal.name} with power of ${strength}`
     );
     console.log(`${player1.name}'s life is now ${chalAttack}`);
+  };
+
+  const startRun = () =>{
+    let jackson = document.querySelector("sprinter")
+    jackson.classList.toggle("sprinting")
   };

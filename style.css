@@ -2,10 +2,27 @@ body{
     background-image: url(https://cutewallpaper.org/21/space-gif-background/Animated-backgrounds-GIFs-Get-the-best-GIF-on-GIPHY.gif);
     background-size: cover;
 }
-.go{
+@keyframes sprinting {
+    
+    0%{
+        transform: translateX(0%);
+
+    }
+
+    100%{
+        transform: translateX(100%);
+    }
+}
+.sprinter {
+    animation: sprinting 10s ease-in-out initial;
     height: 100%;
     width: 100%;
+    border: dotted red;
+    height: 12vh;
+    width: 6vw;
+    margin-top: 50px;
 }
+
 .cn{
     border: solid yellow;
     height: 6vh;
@@ -15,12 +32,7 @@ body{
     height: 100%;
     width: 100%;
 }
-.running{
-    border: dotted red;
-    height: 12vh;
-    width: 6vw;
-    margin-top: 50px;
-}
+
 .container{
     border: solid yellow;
     height: 70vh;
@@ -35,7 +47,7 @@ body{
 .left, .right{
     border: solid white;
     width: 20%;
-    margin: 10px
+    margin: 10px;
     align-items: center;
     background-color: black;
 }
