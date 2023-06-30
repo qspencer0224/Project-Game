@@ -96,7 +96,7 @@ const generateRandomNum = (min, max) => {
 
   };
   let op6 = {
-    name: "Yourself",
+    name: "Your Ego",
     hull: generateRandomNum(18, 20),
     firepower: generateRandomNum(4, 5),
     accuracy: generateRandomNum(6, 8),
