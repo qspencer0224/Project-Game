@@ -25,8 +25,9 @@ body{
 
 .cn{
     border: solid yellow;
-    height: 6vh;
-    width: 6vw;
+    height: 5vh;
+    width: 4vw;
+    margin-left: 580px;
 }
 .logo{
     height: 100%;
@@ -34,27 +35,27 @@ body{
 }
 
 .container{
-    border: solid yellow;
-    height: 70vh;
+    background-color: rgb(14, 14, 14);
+    height: 65vh;
+    width: 70vw;
+    margin-left: 200px;
+    display: flex;
+    margin-top: 10vh;
 }
 .screen{
-    border: solid lime;
-    height: 65vh;
+    height: 40vh;
     margin: 10px;
     display: flex;
     justify-content: space-between;
+    margin-top: 80px;
 }
 .left, .right{
-    border: solid white;
     width: 20%;
-    margin: 10px;
     align-items: center;
     background-color: black;
 }
 .mid{
-    border: solid white;
     width: 60%;
-    margin: 10px;
 }
 .jax{
     height: 100%;
@@ -67,4 +68,129 @@ body{
 .scene{
     height: 100%;
     width: 100%;
+}
+.buttonNav{
+    background-image: url(https://cdn.dribbble.com/users/653185/screenshots/3272195/main_v2.gif);
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    align-items: center;
+    margin: 5px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.shadow{
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 44vw;
+    height: 6.5vh;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.abtn{
+    font-family: "dosis";
+    color:rgb(155, 75, 88);
+    background-color: rgb(255, 144, 162);
+    border: solid rgb(155, 75, 88);
+    box-shadow: 0px 4px rgb(155, 75, 88);
+    height: 6vh;
+    width: 4vw;
+    border-radius: 50%;
+}
+.bbtn{
+    font-family: "dosis";
+    color:rgb(0, 88, 0);
+    background-color:rgb(0, 192, 0);
+    border: solid rgb(0, 88, 0);
+    box-shadow: 0px 4px rgb(0, 88, 0);
+    height: 6vh;
+    width: 4vw;
+    border-radius: 50%;
+}
+.startbtn{
+    font-family: "dosis";
+    color: rgb(177, 0, 0);
+    background-color: black;
+    border: solid rgb(177, 0, 0);
+    box-shadow: 0px 4px rgb(177, 0, 0);
+    height: 5vh;
+    width: 8vw;
+    border-radius: 25px;
+   
+}
+.music{
+    font-family: "dosis";
+    color: rgb(177, 0, 0);
+    background-color: black;
+    border: solid rgb(177, 0, 0);
+    box-shadow: 0px 4px rgb(177, 0, 0);
+    height: 5vh;
+    width: 8vw;
+    border-radius: 25px;
+}
+.retreat{
+    font-family: "dosis";
+    color: rgb(177, 0, 0);
+    background-color: black;
+    border: solid rgb(177, 0, 0);
+    box-shadow: 0px 4px rgb(177, 0, 0);
+    height: 5vh;
+    width: 8vw;
+    border-radius: 25px;
+}
+.settings{
+    font-family: "dosis";
+    color: rgb(177, 0, 0);
+    background-color: black;
+    border: solid rgb(177, 0, 0);
+    box-shadow: 0px 4px rgb(177, 0, 0);
+    height: 5vh;
+    width: 8vw;
+    border-radius: 25px;
+}
+.jacklogo{
+    height: 10vh;
+    width: 8vw;
+}
+.jackpic{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 10px red;
+}
+.btnContainer{
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10vh;
+}
+.tunes{
+    width: 40vh;
+    height: 5vh;
+    margin-left: 890px;
+}
+.controls{
+    font-family: "dosis";
+    color: rgb(177, 0, 0);
+    background-color: black;
+    border: solid rgb(177, 0, 0);
+    box-shadow: 0px 4px rgb(177, 0, 0);
+    border-radius: 25px;
+    height: 4vh;
+    width: 8vw;
+    text-align: center;   
+}
+.cntrltxt{
+    flex-direction: column;
+    align-items: baseline;
+}
+.btndiv{
+    height: 6vh;
+    width: 10vw;
+    display: flex;
+    justify-content: space-around;
 }

@@ -8,16 +8,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
     </head>
     <body>
         <!--cartoon network-->
         <div class="cn">
             <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" alt="" class="logo">
         </div>
-        <!--jack running-->
-        <marquee behavior="" direction="right">
-            <img src="https://i.gifer.com/origin/d5/d53c801f683fa15a90d1ea0cdc11add9_w200.gif" alt="" class="sprinter">
-        </marquee>
         
             <!--jack running gif-->
         </div>
@@ -39,26 +36,34 @@
                 <div class="right">
                     <img src="" alt="" class="player2">
                 </div>
-            </div>    
-        </div>
-
-        <!--button nav (flex)-->
+            </div>
+            <!--button nav (flex)-->
         <div class="buttonNav">
-            <!--a and b button shadow-->
-            <div class="shadow">
+            <!--jacklogo-->
+            <div class="jacklogo">
+                <img src="https://nefariousreviews.files.wordpress.com/2018/04/samurai-jack-featured.jpg?w=672&h=372&crop=1" alt="" class="jackpic">
+            </div>
+            <div class="controls">C O N T R O L S</div>
+            <div class="btndiv">
                 <!--"A" button-->
-                <button onclick="(startRound(currentChal))" class="abtn">A</button>
+                <button onclick="(startRound(currentChal))" class="abtn">X</button>
                 <!--"B" button(div)-->
-                <button class="bbtn">B</button>
+                <button class="bbtn">Y</button>
             </div>
             <!--start button-->
-            <button onclick="startRun()" class="startbtn">Start</button>
+            <button onclick="startRun()" class="startbtn">S T A R T</button>
+            <!--retreat button-->
+            <button onclick="" class="retreat">R E T R E A T</button>
             <!--music button-->
-            <button class="music">Music</button>
-            <!--analog-->
-            <div class="analog"></div>
-
+            <button class="music">M U S I C</button>
         </div>
+        </div>
+
+        <audio class="tunes" controls src="" autoplay>
+        </audio>
+           
+        </div>
+       
         
         <script src="app.js" async defer></script>
     </body>

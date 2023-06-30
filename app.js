@@ -128,6 +128,9 @@ const generateRandomNum = (min, max) => {
         counter++
         currentChal = allChal[counter]
         console.log("Current Challenge:", currentChal)
+      if(refreshGame() === false){
+        return
+      }
     
       } else {
         chalAttack()
@@ -175,8 +178,11 @@ const generateRandomNum = (min, max) => {
     );
     console.log(`${player1.name}'s life is now ${chalAttack}`);
   };
-
-  const startRun = () =>{
-    let jackson = document.querySelector("sprinter")
-    jackson.classList.toggle("sprinting")
-  };
+  
+  const refreshGame = () =>{
+    if(op6.hull <= 0){
+      alert("Congrats. You have accomplished peace. Your next challenge is the discipline that comes with this newly acquired peace. I shall see you again...")
+      return false
+    }
+    return true
+  }
