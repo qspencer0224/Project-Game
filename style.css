@@ -120,6 +120,7 @@ p{
   background-position-y: center;
 }
 .buttonNav{
+    border: solid yellow;
     background-image: url(https://cdn.dribbble.com/users/653185/screenshots/3272195/main_v2.gif);
     background-size: cover;
     background-position-x: center;
@@ -131,14 +132,14 @@ p{
     flex-wrap: wrap;
     flex-direction: column; 
 }
-.jacklogo{
-    height: 10vh;
-    width: 8vw;
+.jackbox{
+    height: 15vh;
+    margin: 5px;
 }
-.jackpic{
+.jackson{
     height: 100%;
     width: 100%;
-    box-shadow: 0px 0px 10px red;
+    
 }
 .startbtn{
     font-family: "dosis";
@@ -218,6 +219,7 @@ p{
     align-items: center;
     display: grid;
     margin-left: 10px;
+    font-family: "dosis";
 }
 .cntrlbox{
   height: 8vh;

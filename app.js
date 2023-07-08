@@ -91,7 +91,7 @@ let op5 = {
   hull: generateRandomNum(3, 6),
   firepower: generateRandomNum(2, 4),
   accuracy: generateRandomNum(6, 8),
-  image:"https://pa1.narvii.com/6401/f030216e1bf188745df10112c59306e27f7e8b1e_hq.gif",
+  image:"https://giffiles.alphacoders.com/107/107489.gif",
   scene: "https://64.media.tumblr.com/bae3170ecf89b3ebba19b5c1ab7d2dbf/tumblr_ne0549xxF31rvb8cmo1_400.gifv"
 
 };
@@ -151,7 +151,6 @@ const startRound = () => {
 };
 
 
- 
 const switchChal = () => {
     console.log("CHALLENGE SWITCHED");
     let newBox = document.querySelector(".enemy");
