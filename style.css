@@ -1,0 +1,255 @@
+body{
+    background-image: url(https://cutewallpaper.org/21/space-gif-background/Animated-backgrounds-GIFs-Get-the-best-GIF-on-GIPHY.gif);
+    background-size: cover;  
+  display: flex;
+  justify-content: center;
+}
+.container{
+  background: #292929;
+  height: 75vh;
+  width: 55vw;
+  display: flex;
+}
+.bigscreen{
+  border: double black;
+  background-image: url(https://twistedsifter.com/wp-content/uploads/2013/05/animated-gifs-of-fighting-game-backgrounds-8.gif);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+.screen{
+  background-color: #454545;
+  height: 70vh;
+  margin: 10px;
+  justify-content: space-between;
+  width: 58%;
+}
+.btnnav{
+  width: 100%;
+  margin: 5px;
+  background-image: url(https://cdn.dribbble.com/users/653185/screenshots/3272195/main_v2.gif);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+.bottom{
+  border: solid black;
+  border-width: .25px;
+  height:  26%;
+  width: 30vw;
+  margin: 10px;
+  display: flex;
+}
+.mid, .top{
+  height: 30%;
+  margin: 10px;
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+.enemybox{
+  border: solid purple;
+  width: 40%;
+  justify-content: space-around;
+  margin-right: 200px;
+  height: 80%;
+  
+}
+#one{
+  border: dotted red;
+  height: 9vh;
+}
+.tophull{
+  border: dotted blue;
+  height: 5vh;
+}
+.enemy{
+  border: outset red;
+  background-color: black;
+  width: 120px;
+  margin-left: 200px;
+  z-index: 2;
+  position: absolute;
+  height: 120px;
+  border-radius: 25px;
+}
+.enemypic{
+  height: 100%;
+  width: 100%;
+}
+.playerbox{
+  border: solid purple;
+  width: 40%;
+  justify-content: space-around;
+  margin-left: 200px;
+  height: 80%;
+  margin-top: 18px;
+}
+#two{
+  border: dotted red;
+  height: 9vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+p{
+  color: white;
+  font-family: "vt323";
+  font-size: large;
+}
+.yourname{
+  border: dotted blue;
+  height: 5vh;
+  color: white;
+  font-family: "vt323";
+  font-size: large;
+  text-align: center;
+}
+.player{
+  border: outset blue;
+  width: 120px;
+  margin-bottom: 30px;
+  margin-right: 200px;
+  z-index: 5;
+  position: absolute;
+  height: 120px;
+  border-radius: 25px;
+  background-image: url(https://giffiles.alphacoders.com/107/107162.gif);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+.buttonNav{
+    background-image: url(https://cdn.dribbble.com/users/653185/screenshots/3272195/main_v2.gif);
+    background-size: cover;
+    background-position-x: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column; 
+}
+.jacklogo{
+    height: 10vh;
+    width: 8vw;
+}
+.jackpic{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 10px red;
+}
+.startbtn{
+    font-family: "dosis";
+    color: white;
+    background-color:  #242424;
+    border: outset black;
+    height: 5vh;
+    width: 8vw; 
+}
+.controls{
+    font-family: "dosis";
+    color: white;
+    background-color:  #242424;
+    border: outset black;
+    height: 4vh;
+    width: 8vw;
+    text-align: center;   
+    font-size: small;
+    align-items: center;
+    display: grid;
+}
+.retreat{
+    font-family: "dosis";
+    color: red;
+    background-color:  #242424;
+    border: outset black;
+    height: 3vh;
+    width: 7vw;
+    font-size: small;
+    text-align: center;
+    margin-top: 5px;
+}
+.music{
+    font-family: "dosis";
+    color: white;
+    background-color:  #242424;
+    border: outset black;
+    height: 3vh;
+    width: 7vw;
+    text-align: center;
+    font-size: small;
+}
+.settings{
+    font-family: "dosis";
+    color: white;
+    background-color:  #242424;
+    border: outset black;
+    height: 3vh;
+    width: 7vw;
+    text-align: center;
+    font-size: small;
+}
+.control{
+  border: outset #212121;
+  background-color:  #242424;
+  width: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.btnbox{
+  border: outset  #212121;
+  background-color:   #242424;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cntrltxt{
+    color: white;
+    background-color:  #242424;
+    border: outset black;
+    height: 4vh;
+    width: 8vw;
+    text-align: center;   
+    font-size: small;
+    align-items: center;
+    display: grid;
+    margin-left: 10px;
+}
+.cntrlbox{
+  height: 8vh;
+  width: 10vw;
+  display: flex;
+  justify-content: space-around;
+}
+.abtn{
+    font-family: "dosis";
+    color:rgb(155, 75, 88);
+    background-color: rgb(255, 144, 162);
+    border: solid rgb(155, 75, 88);
+    box-shadow: 0px 4px rgb(155, 75, 88);
+    height: 5vh;
+    width: 4vw;
+    border-radius: 50%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
+.bbtn{
+    font-family: "dosis";
+    color:rgb(0, 88, 0);
+    background-color:rgb(0, 192, 0);
+    border: solid rgb(0, 88, 0);
+    box-shadow: 0px 4px rgb(0, 88, 0);
+    height: 5vh;
+    width: 4vw;
+    border-radius: 50%;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+}
