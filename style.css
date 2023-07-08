@@ -1,6 +1,7 @@
 body{
     background-image: url(https://cutewallpaper.org/21/space-gif-background/Animated-backgrounds-GIFs-Get-the-best-GIF-on-GIPHY.gif);
-    background-size: cover;
+    background-size: cover 100%;
+    
 }
 @keyframes sprinting {
     
@@ -35,46 +36,21 @@ body{
 }
 
 .container{
+    border: solid pink;
     background-color: rgb(14, 14, 14);
-    height: 65vh;
+    height: 5vh;
     width: 70vw;
     margin-left: 200px;
     display: flex;
-    margin-top: 10vh;
 }
 .screen{
+    border: dotted lime;
     height: 40vh;
     margin: 10px;
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-}
-.left, .right{
-    width: 20%;
-    align-items: center;
-    background-color: black;
-}
-.mid{
-    width: 60%;
-}
-.jax:hover{
-    height: 100%;
-    width: 100%;
-    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ded4c09d-6f31-4249-b9c5-5918e01082f3/deza8e9-b79fc074-2c89-4214-b0cb-73152b904149.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RlZDRjMDlkLTZmMzEtNDI0OS1iOWM1LTU5MThlMDEwODJmM1wvZGV6YThlOS1iNzlmYzA3NC0yYzg5LTQyMTQtYjBjYi03MzE1MmI5MDQxNDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Lr3WO0KgOnsyrH2giFIgRXg2jSa6zJIJPCpwXJpichY);
-    background-position-x: center;
-}
-.jax{
-    height: 100%;
-    width: 100%;
-}
-
-.player2{
-    height: 100%;
-    width: 100%;
-}
-.scene{
-    height: 100%;
-    width: 100%;
+    
 }
 .buttonNav{
     background-image: url(https://cdn.dribbble.com/users/653185/screenshots/3272195/main_v2.gif);
@@ -87,16 +63,6 @@ body{
     margin: 5px;
     flex-wrap: wrap;
     flex-direction: column;
-}
-.shadow{
-    background-color: rgb(75, 75, 75);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 44vw;
-    height: 6.5vh;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 .abtn{
     font-family: "dosis";
@@ -175,11 +141,6 @@ body{
     justify-content: space-evenly;
     height: 10vh;
 }
-.tunes{
-    width: 40vh;
-    height: 5vh;
-    margin-left: 890px;
-}
 .controls{
     font-family: "dosis";
     color: rgb(177, 0, 0);
@@ -201,3 +162,99 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.txtContainer{
+    border: solid rgb(177, 0, 0);
+}
+.text{
+    color: red;
+    text-align: center;
+    font-family: "dosis";
+    flex-wrap: wrap;
+}
+.test{
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 20vh;
+    width: 5vw;
+    box-shadow: 0px 0px 20px black;
+}
+.bigscreen{
+    border: dotted red;
+}
+.screentxt{
+    border: solid purple;
+    height: 5vh;
+    flex-wrap: wrap;
+    color: white;
+    font-family: "dosis";
+    text-align: center;
+}
+.bigcontainer{
+    background-color: gray;
+    height: 75vh;
+    width: 35vw;
+    display:flex;
+  }
+.bottom{
+    border: solid lime;
+    height:  26%;
+    margin: 10px;
+  }
+  .mid, .top{
+    height: 30%;
+    border: solid lime;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .enemybox{
+    border: solid purple;
+    width: 40%;
+    justify-content: space-around;
+    margin-right: 200px;
+    height: 80%;
+    
+  }
+  #one{
+    border: dotted red;
+    height: 9vh;
+  }
+  .tophull{
+    border: dotted blue;
+    height: 5vh;
+  }
+  .enemy{
+    border: solid orange;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 200px;
+    z-index: 2;
+    position: absolute;
+    height: 120px;
+    border-radius: 25px;
+  }
+  .playerbox{
+    border: solid purple;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: 200px;
+    height: 80%;
+    margin-top: 18px;
+  }
+  #two{
+    border: dotted red;
+    height: 9vh;
+  }
+  .midhull{
+    border: dotted blue;
+    height: 5vh;
+  }
+  .player{
+    border: solid orange;
+    width: 120px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    z-index: 5;
+    position: absolute;
+    height: 120px;
+    border-radius: 25px;
+  }
