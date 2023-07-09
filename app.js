@@ -158,6 +158,8 @@ const switchChal = () => {
     newPic.setAttribute("src", allChal[counter].image);
     newPic.setAttribute("class", "enemy");
     newBox.replaceWith(newPic);
+
+    let newName = document.querySelector()
   };
     
 const chalAttack = () => {
