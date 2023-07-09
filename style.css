@@ -18,7 +18,6 @@ body{
   background-position-y: center;
 }
 .screen{
-  border: solid red;
   background-color: #454545;
   height: 70vh;
   margin: 10px;
