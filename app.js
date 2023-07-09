@@ -50,58 +50,57 @@ let player1 = {
 };
 
 let op1 = {
-  name: "Your Peers",
+  name: "YOUR PEERS",
   hull: generateRandomNum(3, 6),
   firepower: generateRandomNum(2, 4),
   accuracy: generateRandomNum(6, 8),
-  image:
-    "https://giffiles.alphacoders.com/107/107307.gif",
-  scene: "https://comicvine.gamespot.com/a/uploads/original/11127/111273287/5781238-giphy%20%284%29.gif"
+  image: "https://giffiles.alphacoders.com/107/107307.gif",
+  text: 'Ah, YOUR PEERS! Will "Peer Pressure" get you?...again?'
 };
 
 let op2 = {
-  name: "Relationships",
+  name: "RELATIONSHIPS",
   hull: generateRandomNum(3, 6),
   firepower: generateRandomNum(2, 4),
   accuracy: generateRandomNum(6, 8),
   image: "https://giffiles.alphacoders.com/107/107066.gif",
-  scene: "https://media.tenor.com/o1sB7ZRzA88AAAAd/cartoon-fight-cartoon-fight-scene.gif"
+  text: "RELATIONSHIPS? YUCK! Will love conquer you?"
 };
 
 // ++
 let op3 = {
-  name: "Public Opinion",
+  name: "PUBLIC OPINION",
   hull: generateRandomNum(13, 16),
   firepower: generateRandomNum(2, 4),
   accuracy: generateRandomNum(6, 8),
   image: "https://giffiles.alphacoders.com/107/107096.gif",
-  scene: "https://thumbs.gfycat.com/AnySlowChipmunk-max-1mb.gif"
+  text: "Why have an opinion when you have PUBLIC OPINION?"
 };
 
 let op4 = {
-  name: "Success",
+  name: "SUCCESS",
   hull: generateRandomNum(3, 6),
   firepower: generateRandomNum(2, 4),
   accuracy: generateRandomNum(6, 8),
   image: "https://i.kym-cdn.com/photos/images/original/001/050/090/deb.gif",
-  scene: "https://i.kym-cdn.com/photos/images/original/001/050/090/deb.gif"
+  text: "Your soul in exchange for SUCCESS. Seems about right?"
 };
 let op5 = {
-  name: "Societal Norms",
+  name: "SOCIETAL NORMS",
   hull: generateRandomNum(3, 6),
   firepower: generateRandomNum(2, 4),
   accuracy: generateRandomNum(6, 8),
   image:"https://giffiles.alphacoders.com/107/107489.gif",
-  scene: "https://64.media.tumblr.com/bae3170ecf89b3ebba19b5c1ab7d2dbf/tumblr_ne0549xxF31rvb8cmo1_400.gifv"
+  text: "Going outside of SOCIETAL NORMS? Ha! Good luck!"
 
 };
 let op6 = {
-  name: "Your Ego",
+  name: "YOUR EGO",
   hull: generateRandomNum(18, 20),
   firepower: generateRandomNum(4, 5),
   accuracy: generateRandomNum(6, 8),
   image: "https://i.gifer.com/10OV.gif",
-  scene: "https://i.gifer.com/10OX.gif"
+  text: "Well, well, well. If it's not the man in the mirror..."
 };
 
 let allChal = [op1, op2, op3, op4, op5, op6];
@@ -172,6 +171,9 @@ const switchChal = () => {
     newhealth.innerHTML = allChal[counter].hull
     newfirepower.innerHTML = allChal[counter].firepower
     newaccuracy.innerHTML = allChal[counter].accuracy
+
+    let newtext = document.querySelector('.screentext')
+    newtext.innerHTML = allChal[counter].text
 
     let newname = document.querySelector('.topname')
     newname.innerHTML = allChal[counter].name

@@ -18,13 +18,45 @@ body{
   background-position-y: center;
 }
 .screen{
+  border: solid red;
   background-color: #454545;
   height: 70vh;
   margin: 10px;
   justify-content: space-between;
   width: 58%;
 }
-
+.screentext{
+  border: inset rgb(31, 31, 31);
+  background-color: black;
+  border-width: 5px;
+  color: white;
+  font-family: "vt323";
+  font-size: large;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  height: 5vh;
+  margin: 5px;
+  position: relative;
+}
+.screentext::before,
+.screentext::after{ 
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.screentext::before{
+  background: black;
+  animation: typewriter 8s ease infinite;
+}
+@keyframes typewriter{
+  to {
+    left: 100%;
+  }
+}
 .btnnav{
   width: 100%;
   margin: 5px;
@@ -49,6 +81,8 @@ body{
   justify-content: space-evenly;
 }
 .enemybox{
+  border: solid gray;
+  background-color: rgb(182, 182, 182);
   width: 40%;
   justify-content: space-around;
   margin-right: 200px;
