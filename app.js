@@ -67,7 +67,6 @@ let op2 = {
   text: "RELATIONSHIPS? YUCK! Will love conquer you?"
 };
 
-// ++
 let op3 = {
   name: "PUBLIC OPINION",
   hull: generateRandomNum(13, 16),
@@ -85,6 +84,7 @@ let op4 = {
   image: "https://i.kym-cdn.com/photos/images/original/001/050/090/deb.gif",
   text: "Your soul in exchange for SUCCESS. Seems about right?"
 };
+
 let op5 = {
   name: "SOCIETAL NORMS",
   hull: generateRandomNum(3, 6),
@@ -94,6 +94,7 @@ let op5 = {
   text: "Going outside of SOCIETAL NORMS? Ha! Good luck!"
 
 };
+
 let op6 = {
   name: "YOUR EGO",
   hull: generateRandomNum(18, 20),
@@ -152,6 +153,7 @@ const startRound = () => {
 
 };
 
+//--with assistance from Jenna
 const shotdamage = (shot) =>{
   currentChal.hull = shot
 }
