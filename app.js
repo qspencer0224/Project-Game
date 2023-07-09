@@ -43,7 +43,7 @@ const generateRandomNum = (min, max) => {
 };
 
 let player1 = {
-  name: "Samurai Jack",
+  name: "YOU",
   health: 20,
   firepower: 5,
   accuracy: 7,
@@ -113,8 +113,8 @@ console.log("Current Challenge:", currentChal)
 
 
 const determineLifeHero = () => {
-  console.log(player1.hull);
-  if (player1.hull <= 0) {
+  console.log(player1.health);
+  if (player1.health <= 0) {
    alert("Game Over")
   } else {
     startRound(currentChal)
@@ -139,16 +139,23 @@ const determineLife = () => {
   };
 
 const startRound = () => {
+  switchChal();
+
   console.log(currentChal);
   let power = player1.firepower;
   let opponentLife = currentChal.hull;
   let shot = (opponentLife -= power);
-  currentChal.hull = shot;
+  setTimeout(shotdamage(shot), 5000);
   console.log(`${player1.name} shot ${currentChal.name} with power of ${power}`);
   console.log(`${currentChal.name}'s life is now ${shot}`);
   // --------------------------------------
   determineLife();
+
 };
+
+const shotdamage = (shot) =>{
+  currentChal.hull = shot
+}
 
 
 const switchChal = () => {
@@ -159,14 +166,22 @@ const switchChal = () => {
     newPic.setAttribute("class", "enemy");
     newBox.replaceWith(newPic);
 
-    let newName = document.querySelector()
+    let newhealth = document.querySelector('.health')
+    let newfirepower = document.querySelector('.firepower')
+    let newaccuracy = document.querySelector('.accuracy')
+    newhealth.innerHTML = allChal[counter].hull
+    newfirepower.innerHTML = allChal[counter].firepower
+    newaccuracy.innerHTML = allChal[counter].accuracy
+
+    let newname = document.querySelector('.topname')
+    newname.innerHTML = allChal[counter].name
   };
     
 const chalAttack = () => {
     console.log("CHALLENGE IS NOW ATTACKING")
   let strength = currentChal.firepower;
-  let chalAttack = (player1.hull-=currentChal.firepower);
-  player1.hull = chalAttack;
+  let chalAttack = (player1.health-=currentChal.firepower);
+  player1.health = chalAttack;
   console.log(
     `${player1.name} got shot  by ${currentChal.name} with power of ${strength}`
   );

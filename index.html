@@ -22,13 +22,17 @@
         <!--top hull-->
         <div class="enemybox">
           <!--hull-->
-          <div class="tophull"></div>
+          <div class="topname">YOUR PEERS</div>
           <!--hull-->
-          <div id="one" class="hull"></div>
+          <div class="hullone">
+            <p>Health: <span class="health">5</span></p>
+            <p>Firepwoer: <span class="firepower">3</span></p>
+            <p>Accuracy: <span class="accuracy">7</span></p>
+          </div>
         </div>
         <!--enemy-->
         <div class="enemy">
-          <img src="https://cdn.pixabay.com/animation/2023/01/07/11/02/11-02-30-972_512.gif" alt="" class="enemypic">
+          <img src="https://giffiles.alphacoders.com/107/107307.gif" alt="" class="enemypic">
         </div>
       </div>
       <!--mid-->
@@ -39,12 +43,13 @@
           <!--hull-->
           <div class="yourname">YOU</div>
           <!--hull-->
-          <div id="two" class="hull">
-            <p>Health: 20
-            Firepower: 5
+          <div class="hulltwo">
+            <p>Health: 20<br>
+            Firepower: 5<br>
             Accuracy: 7</p>
           </div>
         </div>
+      <div class="screentext"></div>
       </div>
       
       
@@ -59,7 +64,7 @@
           <div class="cntrltxt"> C O N T R O L S</div>
           <!--control buttons-->
           <div class="cntrlbox">
-            <div onclick="startRound(currentChal)" class="abtn">X</div>
+            <div onclick="startRound()" class="abtn">X</div>
             <div class="bbtn">Y</div>
           </div>
         </div>

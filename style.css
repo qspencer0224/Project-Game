@@ -24,6 +24,7 @@ body{
   justify-content: space-between;
   width: 58%;
 }
+
 .btnnav{
   width: 100%;
   margin: 5px;
@@ -48,24 +49,35 @@ body{
   justify-content: space-evenly;
 }
 .enemybox{
-  border: solid purple;
   width: 40%;
   justify-content: space-around;
   margin-right: 200px;
   height: 80%;
-  
-}
-#one{
-  border: dotted red;
+} 
+.hulltwo{
+  border: outset rgb(197, 0, 0);
+  background-color: red;
   height: 9vh;
+  border-radius: 10px;
+  margin: 2px;
 }
-.tophull{
-  border: dotted blue;
+.topname{
+  border: outset rgb(197, 0, 0);
+  background-color: red;
+  margin: 2px;
+  border-radius: 10px;
   height: 5vh;
+  color: white;
+  font-family: "vt323";
+  font-size: large;
+  margin-top: 0;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  margin-left: 0;
 }
 .enemy{
   border: outset red;
-  background-color: black;
   width: 120px;
   margin-left: 200px;
   z-index: 2;
@@ -76,34 +88,44 @@ body{
 .enemypic{
   height: 100%;
   width: 100%;
+  border-radius: 25px;
 }
 .playerbox{
-  border: solid purple;
   width: 40%;
   justify-content: space-around;
   margin-left: 200px;
   height: 80%;
   margin-top: 18px;
 }
-#two{
-  border: dotted red;
+.hullone{
+  border: outset rgb(0, 0, 182);
+  background-color: blue;
   height: 9vh;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  border-radius: 10px;
+  margin: 2px;
+
 }
 p{
   color: white;
   font-family: "vt323";
   font-size: large;
+  margin-top: 0;
+  text-align: center;
+  margin: 0;
 }
 .yourname{
-  border: dotted blue;
+  border: outset rgb(0, 0, 182);
+  background-color: blue;
+  margin: 2px;
+  border-radius: 10px;
   height: 5vh;
   color: white;
   font-family: "vt323";
   font-size: large;
   text-align: center;
+  display: grid;
+  align-items: center;
+  margin-left: 0;
 }
 .player{
   border: outset blue;
@@ -171,6 +193,17 @@ p{
     font-size: small;
     text-align: center;
     margin-top: 5px;
+}
+.retreat:hover{
+  font-family: "dosis";
+  color: white;
+  background-color: red;
+  border: outset black;
+  height: 3vh;
+  width: 7vw;
+  font-size: small;
+  text-align: center;
+  margin-top: 5px;
 }
 .music{
     font-family: "dosis";
