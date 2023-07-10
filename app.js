@@ -205,7 +205,18 @@ const refreshGame = () =>{
 const swap = () =>{
   let reset = document.querySelector('.btnnav');
   reset.classList.add('restartbox');
+  let response
   setTimeout(() => {
-    prompt("Are you sure you want to stop your progress?");
+    response = prompt("Are you sure you want to stop your progress?");
+    console.log(response)
+    //assistance from jenna and lynette
+    if(response.toLowerCase() === "yes"){
+      location.reload();
+    }
+    else if(response.toLowerCase() === "no"){
+      let original = document.querySelector('restartbox');
+      reset.classList.remove('restartbox')
+    }
   }, 100);
+  //we want an if statement that responds to yes, anything other than yes is false and continues the game
 }
