@@ -323,3 +323,10 @@ p{
     align-items: center;
     font-weight: bold;
 }
+
+.restartbox{
+  background-image: url(https://thumbs.gfycat.com/SomberSlowCur-size_restricted.gif);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}

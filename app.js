@@ -199,3 +199,10 @@ const refreshGame = () =>{
   }
   return true
 }
+
+//we want a retreat function that shows a jack in a spiral and a prompt
+
+const swap = () =>{
+  let reset = document.querySelector('.btnnav');
+  reset.classList.add('restartbox');
+}
