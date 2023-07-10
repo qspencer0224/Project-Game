@@ -82,7 +82,7 @@ let op4 = {
   firepower: generateRandomNum(2, 4),
   accuracy: generateRandomNum(6, 8),
   image: "https://i.kym-cdn.com/photos/images/original/001/050/090/deb.gif",
-  text: "Your soul in exchange for SUCCESS. Seems about right?"
+  text: "Your soul in exchange for SUCCESS. Sounds about right?"
 };
 
 let op5 = {

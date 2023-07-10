@@ -34,7 +34,7 @@ body{
   text-align: center;
   display: grid;
   align-items: center;
-  height: 5vh;
+  height: 3vh;
   margin: 5px;
   position: relative;
 }
@@ -89,20 +89,20 @@ body{
 } 
 .hulltwo{
   border: outset rgb(197, 0, 0);
-  background-color: red;
+  background-color: rgb(163, 0, 0);
   height: 9vh;
   border-radius: 10px;
   margin: 2px;
 }
 .topname{
   border: outset rgb(197, 0, 0);
-  background-color: red;
+  background-color: rgb(163, 0, 0);
   margin: 2px;
   border-radius: 10px;
   height: 5vh;
   color: white;
   font-family: "vt323";
-  font-size: large;
+  font-size: 1.2em;
   margin-top: 0;
   text-align: center;
   display: grid;
@@ -124,6 +124,8 @@ body{
   border-radius: 25px;
 }
 .playerbox{
+  border: solid gray;
+  background-color: rgb(182, 182, 182);
   width: 40%;
   justify-content: space-around;
   margin-left: 200px;
@@ -131,8 +133,8 @@ body{
   margin-top: 18px;
 }
 .hullone{
-  border: outset rgb(0, 0, 182);
-  background-color: blue;
+  border: outset rgb(0, 0, 92);
+  background-color: rgb(0, 0, 151);
   height: 9vh;
   border-radius: 10px;
   margin: 2px;
@@ -141,20 +143,20 @@ body{
 p{
   color: white;
   font-family: "vt323";
-  font-size: large;
+  font-size: 1.2em;
   margin-top: 0;
   text-align: center;
   margin: 0;
 }
 .yourname{
-  border: outset rgb(0, 0, 182);
-  background-color: blue;
+  border: outset rgb(0, 0, 92);
+  background-color: rgb(0, 0, 151);
   margin: 2px;
   border-radius: 10px;
   height: 5vh;
   color: white;
   font-family: "vt323";
-  font-size: large;
+  font-size: 1.2em;
   text-align: center;
   display: grid;
   align-items: center;
