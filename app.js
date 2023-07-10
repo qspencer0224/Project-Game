@@ -205,4 +205,7 @@ const refreshGame = () =>{
 const swap = () =>{
   let reset = document.querySelector('.btnnav');
   reset.classList.add('restartbox');
+  setTimeout(() => {
+    prompt("Are you sure you want to stop your progress?");
+  }, 100);
 }
