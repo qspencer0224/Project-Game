@@ -1,8 +1,13 @@
 body{
-    background-image: url(https://cutewallpaper.org/21/space-gif-background/Animated-backgrounds-GIFs-Get-the-best-GIF-on-GIPHY.gif);
-    background-size: cover;  
-  display: flex;
+  background-image: url(https://cutewallpaper.org/21/space-gif-background/Animated-backgrounds-GIFs-Get-the-best-GIF-on-GIPHY.gif);
+  background-size: cover;  
+  display: grid;
   justify-content: center;
+}
+audio{
+  height: 5vh;
+  width: 16vw;
+  margin-left: 200px;
 }
 .container{
   background: #292929;
